@@ -1,0 +1,319 @@
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Roboto";
+
+  src: url("../fonts/roboto-webfont.eot");
+  src: url("../fonts/roboto-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/roboto-webfont.woff2") format("woff2"),
+  url("../fonts/roboto-webfont.woff") format("woff"),
+  url("../fonts/roboto-webfont.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Roboto";
+
+  src: url("../fonts/robotobold-webfont.eot");
+  src: url("../fonts/robotobold-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/robotobold-webfont.woff2") format("woff2"),
+  url("../fonts/robotobold-webfont.woff") format("woff"),
+  url("../fonts/robotobold-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Roboto";
+
+  src: url("robotomedium-webfont.eot");
+  src: url("robotomedium-webfont.eot?#iefix") format("embedded-opentype"),
+  url("robotomedium-webfont.woff2") format("woff2"),
+  url("robotomedium-webfont.woff") format("woff"),
+  url("robotomedium-webfont.ttf") format("truetype");
+}
+
+body {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.text-box-head {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.text-box-description {
+  color: #283136;
+}
+
+.slider-button {
+  font-weight: 500;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.feature-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.feature-text {
+  color: #283136;
+}
+
+.feature-button {
+  font-weight: 500;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.about-box-title {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.about-box-text {
+  color: #283136;
+}
+
+.about-box-order {
+  font-weight: bold;
+}
+
+.about-box-order-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  color: #283136;
+}
+
+.slogan {
+  font-weight: bold;
+}
+
+.about-statustic-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.stat-rate {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 10px;
+}
+
+.stat-description {
+  line-height: 18px;
+  color: #283136;
+}
+
+.partner-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.contact-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.contact-address {
+  color: #666666;
+}
+
+.contact-tel {
+  color: #666666;
+}
+
+.write-to-us {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.social-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.lead-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.lead-text {
+  line-height: 22px;
+  color: #444444;
+}
+
+.font-title {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.input-title {
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.input-name,
+.input-mail,
+.area-text {
+  line-height: 18px;
+  color: rgba(68, 68, 68, 0.5);
+}
+
+.area-title {
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.letter-button {
+  font-weight: 500;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.page-title {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.filter-box-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.price-box {
+  line-height: 22px;
+  color: #283136;
+}
+
+.type-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  line-height: 20px;
+  color: #283136;
+}
+
+.special-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  line-height: 20px;
+  color: #283136;
+}
+
+.filter-button {
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.sort-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.sort-type-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.sort-type-current {
+  color: #000000;
+}
+
+.pattern-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.product-title-link {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.product-text {
+  line-height: 18px;
+  color: #666666;
+}
+
+.button-price {
+  font-weight: 500;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.pagination {
+  list-style: none;
+  font-weight: 500;
+  line-height: 18px;
+}
