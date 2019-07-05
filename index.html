@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <title>Nerds главная</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
 </head>
-<body>
+<body class="main-container">
   <header class="page-header">
     <a class="logo-nerds" href="">
       <svg xmlns="http://www.w3.org/2000/svg" width="160" height="65" viewBox="0 0 160 65">
@@ -26,7 +27,7 @@
       </ul>
     </nav>
   </header>
-  <main class=" page-content">
+  <main class="page-content">
     <h1 class="visually-hidden">Главная страница веб-студии Нердс</h1>
     <section class="promo-widget">
       <h2 class="visually-hidden">Слайдер Нердс</h2>
@@ -37,28 +38,28 @@
           <li><a class="widget-button" aria-label="Третий слайд"></a></li>
         </ul>
       </nav>
-      <article class="promo-slide promo-slide-active">
+      <article class="promo-slide   promo-slide-active">
         <h3 class="visually-hidden">Первый слайд</h3>
         <div class="slide-text-box">
-          <span class="text-box-head">
-            Долго, дорого,
+          <p class="text-box-head">
+            Долго, дорого,<br>
             скрупулезно.
-          </span>
+          </p>
           <p class="text-box-description">
-            Математически выверенный дизайн
+            Математически выверенный дизайн<br>
             для вашего сайта или мобильного приложения.
           </p>
           <a class="slider-button">Узнать больше</a>
         </div>
         <img class="slide-picture" src="img/slide-picture1.png" alt="Разработка мобильных сайтов" width="698" height="413">
       </article>
-      <article class="promo-slide promo-slide-active">
+      <article class="promo-slide">
         <h3 class="visually-hidden">Второй слайд</h3>
         <div class="slide-text-box">
-          <span class="text-box-head">
+          <p class="text-box-head">
             Любим математику
             как никто другой
-          </span>
+          </p>
           <p class="text-box-description">
             Никакого креатива, только математические формулы
             для расчета идеальных пропорций.
@@ -67,15 +68,15 @@
         </div>
         <img class="slide-picture" src="img/slide-picture2.png" alt="Разработка сайтов под десктоп" width="663" height="430">
       </article>
-      <article class="promo-slide promo-slide-active">
+      <article class="promo-slide">
         <h3 class="visually-hidden">Третий слайд</h3>
         <div class="slide-text-box">
-          <span class="text-box-head">
-            Только ночь,
+          <p class="text-box-head">
+            Только ночь,<br>
             только хардкор
-          </span>
+          </p>
           <p class="text-box-description">
-            Работать днем, как все? Мы против этого.
+            Работать днем, как все? Мы против этого.<br>
             Ближе к полуночи работа только начинается.
           </p>
           <a class="slider-button">Узнать больше</a>
@@ -83,7 +84,7 @@
         <img class="slide-picture" src="img/slide-picture3.png" alt="Разработка сайтов под планшеты" width="759" height="411">
       </article>
     </section>
-    <section class="feature">
+    <section class="feature margin-aside">
       <h2 class="visually-hidden">Виды наших услуг</h2>
       <ul class="feature-list">
         <li>
@@ -92,7 +93,7 @@
           <p class="feature-text">
             Мир никогда не будет прежним после того как увидит ваш сайт!
           </p>
-          <a class="feature-button">ЗАКАЗАТЬ</a>
+          <a class="feature-button red">ЗАКАЗАТЬ</a>
         </li>
         <li>
           <img src="img/advantage-picture-green.png" width="300" height="146" alt="">
@@ -100,7 +101,7 @@
           <p class="feature-text">
             Покорите топ-10 приложений в AppStore и Google Play
           </p>
-          <a class="feature-button">ЗАКАЗАТЬ</a>
+          <a class="feature-button green">ЗАКАЗАТЬ</a>
         </li>
         <li>
           <img src="img/advantage-picture-yellow.png" width="300" height="146" alt="">
@@ -109,22 +110,22 @@
             Вы даже не подозреваете,
             насколько вы изумительны!
           </p>
-          <a class="feature-button">ЗАКАЗАТЬ</a>
+          <a class="feature-button yellow">ЗАКАЗАТЬ</a>
         </li>
       </ul>
     </section>
-    <section class="about">
+    <section class="about margin-aside">
       <h2 class="visually-hidden">О нас</h2>
       <div class="about-box">
-        <span class="about-box-title">
+        <p class="about-box-title">
           Мы — маленькая, но гордая
           дизайн-студия из Краснодара.
-        </span>
+        </p>
         <p class="about-box-text">
           Исповедуем принципы минимализма и чистоты. Ставим математический расчет
           превыше креатива. Работаем не покладая рук, как роботы.
         </p>
-        <span class="about-box-order">Выполняем заказы на разработку:</span>
+        <p class="about-box-order">Выполняем заказы на разработку:</p>
         <ul class="about-box-order-list">
           <li>Веб-сайтов любой сложности</li>
           <li>Мобильных приложений для iOS и Android</li>
@@ -133,24 +134,24 @@
       </div>
       <div class="about-statistic">
         <img src="img/nerds-picture.png" alt="Цветной логотип Нердс" width="360" height="208">
-        <span class="slogan">с 2004 года Любим точность во всем:</span>
+        <p class="slogan">с 2004 года Любим точность во всем:</p>
         <ul class="about-statistic-list">
           <li>
-            <span class="stat-rate">146%</span>
+            <p class="stat-rate">146</p>
             <p class="stat-description">
               Уровень
               самоотдачи
             </p>
           </li>
           <li>
-            <span class="stat-rate">100%</span>
+            <p class="stat-rate">100</p>
             <p class="stat-description">
               Соблюдение
               сроков
             </p>
           </li>
           <li>
-            <span class="stat-rate">50%</span>
+            <p class="stat-rate">50</p>
             <p class="stat-description">
               Минимальная
               предоплата
@@ -159,24 +160,24 @@
         </ul>
       </div>
     </section>
-    <ul class="partner-list">
+    <ul class="partner-list margin-aside">
       <li>
-        <a class="partner-link">
+        <a class="partner-link" href="">
           <img src="img/htmlacademy-logo.png" alt="Логотип ХТМЛ Академии" width="199" height="68">
         </a>
       </li>
       <li>
-        <a class="partner-link">
+        <a class="partner-link" href="">
           <img src="img/borodinski-logo.png" alt="Логотип Барбершопа Бородинский" width="209" height="90">
         </a>
       </li>
       <li>
-        <a class="partner-link">
+        <a class="partner-link" href="">
           <img src="img/pink-logo.png" alt="Логотип студии Пинк" width="185" height="52">
         </a>
       </li>
       <li>
-        <a class="partner-link">
+        <a class="partner-link" href="">
           <img src="img/mishka-logo.png" alt="Логотип магазина Мишка" width="173" height="84">
         </a>
       </li>
@@ -186,17 +187,17 @@
     <div class="map-container">
       <article class="contact-box">
         <h3 class="visually-hidden">Наши контакты</h3>
-        <span class="contact-name">NЁRDS DESIGN STUDIO</span>
+        <p class="contact-name">NЁRDS DESIGN STUDIO</p>
         <p class="contact-address">
           191186, Санкт-Петербург,
-          ул. Б. Конюшенная, д. 19/8
+          ул.&nbsp;Б.&nbsp;Конюшенная, д. 19/8
         </p>
-        <span class="contact-tel">тел. +7 (812) 275-75-75</span>
-        <button class="write-to-us" type="button">Напишите нам</button>
+        <p class="contact-tel">тел. +7 (812) 275-75-75</p>
+        <a class="write-to-us" href="to-us.html">Напишите нам</a>
       </article>
       <img src="img/map.png" alt="191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8" width="1440" height="416">
     </div>
-    <div class="footer-bottom">
+    <div class="footer-bottom margin-aside">
       <ul class="social-list">
         <li>
           <a class="social-link" href="vk.com" aria-label="Мы вконтакте ">
@@ -230,7 +231,7 @@
       </label>
       <label class="input-box">
         <span class="input-title">Ваш e-mail:</span>
-        <input class="input-mail" type="mail" name="mail" placeholder="email@example.com">
+        <input class="input-mail" type="email" name="mail" placeholder="email@example.com">
       </label>
       <label class="area-box">
         <span class="area-title">Текст письма:</span>
