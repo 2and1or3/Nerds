@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
   <meta charset="utf-8">
   <title>Nerds Каталог</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
 </head>
-<body class="main-container">
-  <header class="page-header">
+<body>
+  <header class="page-header main-container">
     <a class="logo-nerds" href="index.html">
       <svg xmlns="http://www.w3.org/2000/svg" width="160" height="65" viewBox="0 0 160 65">
         <path
@@ -27,7 +27,7 @@
       </ul>
     </nav>
   </header>
-  <main class="page-content page-content-catalog">
+  <main class="page-content page-content-catalog main-container">
     <h1 class="page-title">Магазин готовых шаблонов</h1>
     <div class="page-catalog margin-aside">
       <form class="filter" action="https://echo.htmlacademy.ru" method="get">
@@ -152,12 +152,12 @@
             <img class="product-picture" src="img/img-sedona-jpg.jpg" width="360" height="576" alt="Sedona">
             <div class="product-info">
               <h3 class="product-title">
-                <a class="product-title-link">Sedona</a>
+                <a class="product-title-link" href="">Sedona</a>
               </h3>
               <p class="product-text">
                 Информационный сайт для&nbsp;туристов
               </p>
-              <a class="button-price">9 900 руб.</a>
+              <a class="button-price" href="">9 900 руб.</a>
             </div>
           </li>
           <li class="pattern-list-item">
@@ -167,13 +167,13 @@
             <img class="product-picture" src="img/img-pink-jpg.jpg" width="360" height="576" alt="Pink App">
             <div class="product-info">
               <h3 class="product-title">
-                <a class="product-title-link">Pink App</a>
+                <a class="product-title-link" href="">Pink App</a>
               </h3>
               <p class="product-text">
                 Продуктовый лендинг
                 приложения для iOS и Android
               </p>
-              <a class="button-price">9 900 руб.</a>
+              <a class="button-price" href="">9 900 руб.</a>
             </div>
           </li>
           <li class="pattern-list-item">
@@ -183,12 +183,12 @@
             <img class="product-picture" src="img/img-barbershop-jpg.jpg" width="360" height="576" alt="Barbershop">
             <div class="product-info">
               <h3 class="product-title">
-                <a class="product-title-link">Barbershop</a>
+                <a class="product-title-link" href="">Barbershop</a>
               </h3>
               <p class="product-text">
                 Сайт салона красоты. Для&nbsp;мужчин, да.
               </p>
-              <a class="button-price">9 900 руб.</a>
+              <a class="button-price" href="">9 900 руб.</a>
             </div>
           </li>
           <li class="pattern-list-item">
@@ -198,13 +198,13 @@
             <img class="product-picture" src="img/img-mishka-jpg.jpg" width="360" height="576" alt="MISHKA">
             <div class="product-info">
               <h3 class="product-title">
-                <a class="product-title-link">MISHKA</a>
+                <a class="product-title-link" href="">MISHKA</a>
               </h3>
               <p class="product-text">
                 Интернет-магазин
                 вязаных игрушек
               </p>
-              <a class="button-price">9 900 руб.</a>
+              <a class="button-price" href="">9 900 руб.</a>
             </div>
           </li>
           <li class="pattern-list-item">
@@ -214,12 +214,12 @@
             <img class="product-picture" src="img/img-aplus-jpg.jpg" width="360" height="576" alt="A Plus">
             <div class="product-info">
               <h3 class="product-title">
-                <a class="product-title-link">A Plus</a>
+                <a class="product-title-link" href="">A Plus</a>
               </h3>
               <p class="product-text">
                 Лендинг курсов повышения квалификации
               </p>
-              <a class="button-price">9 900 руб.</a>
+              <a class="button-price" href="">9 900 руб.</a>
             </div>
           </li>
           <li class="pattern-list-item">
@@ -229,13 +229,13 @@
             <img class="product-picture" src="img/img-kvast-jpg.jpg" width="360" height="576" alt="КВАСТ">
             <div class="product-info">
               <h3 class="product-title">
-                <a class="product-title-link">КВАСТ</a>
+                <a class="product-title-link" href="">КВАСТ</a>
               </h3>
               <p class="product-text">
                 Промо-сайт производителя
                 крафтового кваса
               </p>
-              <a class="button-price">9 900 руб.</a>
+              <a class="button-price" href="">9 900 руб.</a>
             </div>
           </li>
         </ul>
@@ -256,64 +256,65 @@
       </div>
     </div>
   </main>
-  <footer class="page-footer">
-    <div class="map-container">
-      <article class="contact-box">
-        <h3 class="visually-hidden">Наши контакты</h3>
-        <p class="contact-name">NЁRDS DESIGN STUDIO</p>
-        <p class="contact-address">
-          191186, Санкт-Петербург,
-          ул.&nbsp;Б.&nbsp;Конюшенная, д. 19/8
-        </p>
-        <p class="contact-tel">тел. +7 (812) 275-75-75</p>
-        <a class="write-to-us" href="to-us.html">Напишите нам</a>
-      </article>
-      <img src="img/map.png" alt="191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8" width="1440" height="416">
-    </div>
-    <div class="footer-bottom margin-aside">
-      <ul class="social-list">
-        <li>
-          <a class="social-link social-link-vk" href="vk.com" aria-label="Мы вконтакте ">
-            <span class="visually-hidden">Вконтакте</span>
-          </a>
-        </li>
-        <li>
-          <a class="social-link social-link-fb" href="vk.com" aria-label="Мы в фейсбуку ">
-            <span class="visually-hidden">Фейсбук</span>
-          </a>
-        </li>
-        <li>
-          <a class="social-link social-link-inst" href="vk.com" aria-label="Мы в инстаграме ">
-            <span class="visually-hidden">инстаграм</span>
-          </a>
-        </li>
-      </ul>
-      <p class="lead-container">
-        <span class="lead-title">Давайте дружить, это выгодно!</span>
-        <span class="lead-text">Скидка 10% для друзей из социальных сетей.</span>
+  <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1188.380693428783!2d30.322144996161782!3d59.93861123884395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1562489812154!5m2!1sru!2sru"
+      width="600" height="450" style="border:0" allowfullscreen></iframe>
+    <article class="contact-box">
+      <h3 class="visually-hidden">Наши контакты</h3>
+      <p class="contact-name">NЁRDS DESIGN STUDIO</p>
+      <p class="contact-address">
+        191186, Санкт-Петербург,
+        ул.&nbsp;Б.&nbsp;Конюшенная, д. 19/8
       </p>
-    </div>
+      <p class="contact-tel">тел. +7 (812) 275-75-75</p>
+      <a class="write-to-us" href="to-us.html">Напишите нам</a>
+    </article>
+  </div>
+  <footer class="page-footer main-container footer-bottom">
+    <ul class="social-list">
+      <li>
+        <a class="social-link social-link-vk" href="vk.com" aria-label="Мы вконтакте ">
+          <span class="visually-hidden">Вконтакте</span>
+        </a>
+      </li>
+      <li>
+        <a class="social-link social-link-fb" href="fb.com" aria-label="Мы в фейсбуку ">
+          <span class="visually-hidden">Фейсбук</span>
+        </a>
+      </li>
+      <li>
+        <a class="social-link social-link-inst" href="inst.com" aria-label="Мы в инстаграме ">
+          <span class="visually-hidden">инстаграм</span>
+        </a>
+      </li>
+    </ul>
+    <p class="lead-container">
+      <span class="lead-title">Давайте дружить, это выгодно!</span>
+      <span class="lead-text">Скидка 10% для друзей из социальных сетей.</span>
+    </p>
   </footer>
   <section class="modal-window">
     <form class="form-box" action="https://echo.htmlacademy.ru" method="get">
-      <span class="form-title">Напишите нам</span>
-      <button class="modal-close" type="button">X</button>
-      <label class="input-box">
-        <span class="input-title">Ваше имя:</span>
-        <input class="input-name" type="text" name="name" placeholder="Имя Фамилия">
-      </label>
-      <label class="input-box">
-        <span class="input-title">Ваш e-mail:</span>
-        <input class="input-mail" type="email" name="mail" placeholder="email@example.com">
-      </label>
+      <p class="form-title">Напишите нам</p>
+      <button class="modal-close" type="button"></button>
+      <div class="user-box">
+        <label class="input-box">
+          <span class="input-title">Ваше имя:</span>
+          <input class="input-name" type="text" name="name" placeholder="Имя Фамилия">
+        </label>
+        <label class="input-box">
+          <span class="input-title">Ваш e-mail:</span>
+          <input class="input-mail" type="email" name="mail" placeholder="email@example.com">
+        </label>
+      </div>
       <label class="area-box">
         <span class="area-title">Текст письма:</span>
-        <textarea class="area-text">
-            В свободной форме
-        </textarea>
+        <textarea class="area-text" name="text" rows="5" placeholder="В свободной форме"></textarea>
       </label>
       <button class="letter-button" type="submit">ОТПРАВИТЬ</button>
     </form>
   </section>
+  <script src="js/script.min.js"></script>
 </body>
 </html>

@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <title>Nerds главная</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
 </head>
-<body class="main-container">
-  <header class="page-header">
+<body>
+  <header class="page-header main-container">
     <a class="logo-nerds" href="">
       <svg xmlns="http://www.w3.org/2000/svg" width="160" height="65" viewBox="0 0 160 65">
         <path
@@ -27,15 +27,15 @@
       </ul>
     </nav>
   </header>
-  <main class="page-content">
+  <main class="page-content main-container">
     <h1 class="visually-hidden">Главная страница веб-студии Нердс</h1>
     <section class="promo-widget">
       <h2 class="visually-hidden">Слайдер Нердс</h2>
       <nav class="widget-navigation">
         <ul class="widget-navigation-list">
-          <li><a class="widget-button" aria-label="Первый слайд"></a></li>
-          <li><a class="widget-button" aria-label="Второй слайд"></a></li>
-          <li><a class="widget-button" aria-label="Третий слайд"></a></li>
+          <li><button class="widget-button widget-button-active" aria-label="Первый слайд"></button></li>
+          <li><button class="widget-button" aria-label="Второй слайд"></button></li>
+          <li><button class="widget-button" aria-label="Третий слайд"></button></li>
         </ul>
       </nav>
       <article class="promo-slide   promo-slide-active">
@@ -49,7 +49,7 @@
             Математически выверенный дизайн<br>
             для вашего сайта или мобильного приложения.
           </p>
-          <a class="slider-button">Узнать больше</a>
+          <a class="slider-button" href="">Узнать больше</a>
         </div>
         <img class="slide-picture" src="img/slide-picture1.png" alt="Разработка мобильных сайтов" width="698" height="413">
       </article>
@@ -64,7 +64,7 @@
             Никакого креатива, только математические формулы
             для расчета идеальных пропорций.
           </p>
-          <a class="slider-button">Узнать больше</a>
+          <a class="slider-button" href="">Узнать больше</a>
         </div>
         <img class="slide-picture" src="img/slide-picture2.png" alt="Разработка сайтов под десктоп" width="663" height="430">
       </article>
@@ -79,7 +79,7 @@
             Работать днем, как все? Мы против этого.<br>
             Ближе к полуночи работа только начинается.
           </p>
-          <a class="slider-button">Узнать больше</a>
+          <a class="slider-button" href="">Узнать больше</a>
         </div>
         <img class="slide-picture" src="img/slide-picture3.png" alt="Разработка сайтов под планшеты" width="759" height="411">
       </article>
@@ -93,7 +93,7 @@
           <p class="feature-text">
             Мир никогда не будет прежним после того как увидит ваш сайт!
           </p>
-          <a class="feature-button red">ЗАКАЗАТЬ</a>
+          <a class="feature-button red" href="">ЗАКАЗАТЬ</a>
         </li>
         <li>
           <img src="img/advantage-picture-green.png" width="300" height="146" alt="">
@@ -101,7 +101,7 @@
           <p class="feature-text">
             Покорите топ-10 приложений в AppStore и Google Play
           </p>
-          <a class="feature-button green">ЗАКАЗАТЬ</a>
+          <a class="feature-button green" href="">ЗАКАЗАТЬ</a>
         </li>
         <li>
           <img src="img/advantage-picture-yellow.png" width="300" height="146" alt="">
@@ -110,7 +110,7 @@
             Вы даже не подозреваете,
             насколько вы изумительны!
           </p>
-          <a class="feature-button yellow">ЗАКАЗАТЬ</a>
+          <a class="feature-button yellow" href="">ЗАКАЗАТЬ</a>
         </li>
       </ul>
     </section>
@@ -183,43 +183,43 @@
       </li>
     </ul>
   </main>
-  <footer class="page-footer">
-    <div class="map-container">
-      <article class="contact-box">
-        <h3 class="visually-hidden">Наши контакты</h3>
-        <p class="contact-name">NЁRDS DESIGN STUDIO</p>
-        <p class="contact-address">
-          191186, Санкт-Петербург,
-          ул.&nbsp;Б.&nbsp;Конюшенная, д. 19/8
-        </p>
-        <p class="contact-tel">тел. +7 (812) 275-75-75</p>
-        <a class="write-to-us" href="to-us.html">Напишите нам</a>
-      </article>
-      <img src="img/map.png" alt="191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8" width="1440" height="416">
-    </div>
-    <div class="footer-bottom margin-aside">
-      <ul class="social-list">
-        <li>
-          <a class="social-link social-link-vk" href="vk.com" aria-label="Мы вконтакте ">
-            <span class="visually-hidden">Вконтакте</span>
-          </a>
-        </li>
-        <li>
-          <a class="social-link social-link-fb" href="vk.com" aria-label="Мы в фейсбуку ">
-            <span class="visually-hidden">Фейсбук</span>
-          </a>
-        </li>
-        <li>
-          <a class="social-link social-link-inst" href="vk.com" aria-label="Мы в инстаграме ">
-            <span class="visually-hidden">инстаграм</span>
-          </a>
-        </li>
-      </ul>
-      <p class="lead-container">
-        <span class="lead-title">Давайте дружить, это выгодно!</span>
-        <span class="lead-text">Скидка 10% для друзей из социальных сетей.</span>
+  <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1188.380693428783!2d30.322144996161782!3d59.93861123884395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1562489812154!5m2!1sru!2sru"
+      width="600" height="450" style="border:0" allowfullscreen></iframe>
+    <article class="contact-box">
+      <h3 class="visually-hidden">Наши контакты</h3>
+      <p class="contact-name">NЁRDS DESIGN STUDIO</p>
+      <p class="contact-address">
+        191186, Санкт-Петербург,
+        ул.&nbsp;Б.&nbsp;Конюшенная, д. 19/8
       </p>
-    </div>
+      <p class="contact-tel">тел. +7 (812) 275-75-75</p>
+      <a class="write-to-us" href="to-us.html">Напишите нам</a>
+    </article>
+  </div>
+  <footer class="page-footer main-container footer-bottom">
+    <ul class="social-list">
+      <li>
+        <a class="social-link social-link-vk" href="vk.com" aria-label="Мы вконтакте ">
+          <span class="visually-hidden">Вконтакте</span>
+        </a>
+      </li>
+      <li>
+        <a class="social-link social-link-fb" href="fb.com" aria-label="Мы в фейсбуку ">
+          <span class="visually-hidden">Фейсбук</span>
+        </a>
+      </li>
+      <li>
+        <a class="social-link social-link-inst" href="inst.com" aria-label="Мы в инстаграме ">
+          <span class="visually-hidden">инстаграм</span>
+        </a>
+      </li>
+    </ul>
+    <p class="lead-container">
+      <span class="lead-title">Давайте дружить, это выгодно!</span>
+      <span class="lead-text">Скидка 10% для друзей из социальных сетей.</span>
+    </p>
   </footer>
   <section class="modal-window">
     <form class="form-box" action="https://echo.htmlacademy.ru" method="get">
@@ -237,10 +237,11 @@
       </div>
       <label class="area-box">
         <span class="area-title">Текст письма:</span>
-        <textarea class="area-text" name="text" rows="5"placeholder="В свободной форме"></textarea>
+        <textarea class="area-text" name="text" rows="5" placeholder="В свободной форме"></textarea>
       </label>
       <button class="letter-button" type="submit">ОТПРАВИТЬ</button>
     </form>
   </section>
+  <script src="js/script.min.js"></script>
 </body>
 </html>
